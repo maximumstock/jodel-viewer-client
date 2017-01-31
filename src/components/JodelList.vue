@@ -73,8 +73,4 @@ h3 {
   max-height: 780px;
 }
 
-.jodel-list:nth-child(2n-1) {
-  background-color: #eee;
-}
-
 </style>

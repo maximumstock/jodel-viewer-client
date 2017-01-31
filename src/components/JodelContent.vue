@@ -39,7 +39,8 @@ export default {
 }
 
 .jodel-content > img{
-  padding: 4px;
+    padding: 4px;
+    margin: auto;
 }
 
 </style>

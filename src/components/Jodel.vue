@@ -48,7 +48,7 @@ export default {
 <style>
 
 .jodel {
-  width: 95%;
+  width: 96%;
   margin: auto;
 }
 

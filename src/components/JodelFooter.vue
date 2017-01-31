@@ -25,7 +25,9 @@ export default {
   },
   methods: {
     formatDate (date) {
-      return moment(date).locale('de').format('DD.MM.YY HH:mm');
+        var localTime  = moment.utc(date).toDate();
+        localTime = moment(localTime).format('DD.MM.YY HH:mm');
+        return localTime;
     }
   }
 }
