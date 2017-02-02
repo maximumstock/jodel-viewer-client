@@ -1,6 +1,6 @@
 # jodel-viewer-client
 
-> A Vue.js project
+A Vue.js example project to view the most recent, discussed and upvoted jodels provided via [jodel-viewer-server](https://github.com/maximumstock/jodel-viewer-server).
 
 ## Build Setup
 
