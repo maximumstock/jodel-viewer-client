@@ -32,10 +32,14 @@ export default {
   margin-bottom: 1px;
 }
 
-.jodel-content > p {
+.jodel-content > pre {
   text-align: left;
   padding: 5px 10px 5px 10px;
   color: white;
+  background-color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  border: 0px;
 }
 
 .jodel-content > img{
