@@ -1,7 +1,7 @@
 <template>
     <div class="jodel-content" v-bind:style="{ background: `#${jodel.hex_color}`}">
       <img v-if="jodel.image_url" class="img-responsive" :src="jodel.image_url" />
-      <pre v-else>{{jodel.message}}</pre>
+      <p v-else>{{jodel.message}}</p>
     </div>
 </template>
 
@@ -32,7 +32,7 @@ export default {
   margin-bottom: 1px;
 }
 
-.jodel-content > pre {
+.jodel-content > p {
   text-align: left;
   padding: 5px 10px 5px 10px;
   color: white;
@@ -40,6 +40,7 @@ export default {
   font-family: inherit;
   font-size: inherit;
   border: 0px;
+  white-space: pre-wrap;
 }
 
 .jodel-content > img{
