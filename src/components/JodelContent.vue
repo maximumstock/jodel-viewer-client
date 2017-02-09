@@ -36,9 +36,6 @@ export default {
   text-align: left;
   padding: 5px 10px 5px 10px;
   color: white;
-  background-color: inherit;
-  font-family: inherit;
-  font-size: inherit;
   border: 0px;
   white-space: pre-wrap;
 }
