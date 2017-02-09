@@ -45,7 +45,11 @@ export default {
     loadComments: function loadComments(jodel_id) {
       return Api.loadComments(this, jodel_id)
         .then((res) => {
-          this.comments = res.body;
+          this.comments = res.body.map(e => {
+            var o = e;
+            o.oj = (this.jodel.user_handle === e.user_handle) ? true : false;
+            return o;
+          });
         })
     }
   },

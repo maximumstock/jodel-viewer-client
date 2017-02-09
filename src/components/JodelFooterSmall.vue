@@ -2,6 +2,7 @@
   <div class="jodel-footer-small" v-bind:style="{ background: `#${jodel.hex_color}`}">
     <span class="glyphicon glyphicon-chevron-up"></span> {{jodel.vote_count}}
     <span class="pull-right">{{formatDate(jodel.created_at)}}</span>
+    <span v-if="jodel.oj" class="pull-right"><b>OJ</b>&nbsp;-&nbsp;</span>
   </div>
 
 </template>
