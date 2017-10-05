@@ -1,4 +1,4 @@
-const API_URL = 'http://localhost:3000/v1/';
+const API_URL = 'http://tim.maximumstock.net/api/v1/';
 
 export default {
 

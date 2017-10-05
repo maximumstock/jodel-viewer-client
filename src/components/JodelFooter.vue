@@ -1,7 +1,7 @@
 <template>
-  <div class="jodel-footer" v-bind:style="{ background: `#${jodel.hex_color}`}">
+  <div class="jodel-footer" v-bind:style="{ background: `#${jodel.color}`}">
     <span class="glyphicon glyphicon-chevron-up"></span> {{jodel.vote_count}}
-    <span class="pull-right">{{jodel.location_name}} - {{formatDate(jodel.created_at)}}</span>
+    <span class="pull-right">{{jodel.location.name}} - {{formatDate(jodel.created_at)}}</span>
     <br/>
     <span>{{jodel.child_count}} Kommentare</span> - {{jodel.pin_count}} Pins
   </div>

@@ -1,12 +1,11 @@
 <template>
   <div class="jodel">
-    <div @click="showModal = true">
+    <div @click="showModal = false">
       <jodel-content :jodel="this.jodel"></jodel-content>
       <jodel-footer :jodel="this.jodel"></jodel-footer>
     </div>
 
-    <jodel-modal :jodel="this.jodel" v-if="showModal" @close="showModal = false">
-    </jodel-modal>
+    <jodel-modal :jodel="this.jodel" v-if="showModal" @close="showModal = false"></jodel-modal>
 
   </div>
 
